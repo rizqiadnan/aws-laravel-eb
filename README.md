@@ -143,8 +143,6 @@ to your CI/CD machine:
 - `AWS_SECRET_ACCESS_KEY`
 - `AWS_EB_REGION`
 
-If you use a dockerized CI/CD pipeline (like Gitlab CI), you can make use of the `renokico/aws-cli:latest` image.
-
 The following commands let you deploy an app on a certain environment within Gitlab CI on tag creation, for example:
 
 ```bash
